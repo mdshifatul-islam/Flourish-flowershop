@@ -41,6 +41,9 @@
     border: 2px solid #E55473;
     cursor: pointer;
 }
+a{
+    text-decoration: none;
+}
 /* Header part css */
 
 header{
@@ -103,6 +106,8 @@ header{
     align-items: flex-end;
     padding: 30px 60px 0 60px;
     border-radius: 50% 50% 0 0;
+    position: relative;
+    overflow: hidden;
 }
 .featured_img img{
     width: 220px;
@@ -116,4 +121,15 @@ header{
 .featured_img_2{
     align-items: center;
     background: #0598a01e;
+}
+.image_caption{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
+.image_caption p a{
+    color: #272727;
+    font-size: 14px;
 }

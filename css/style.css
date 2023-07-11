@@ -19,6 +19,7 @@
     border: 2px solid transparent;
     transition: 0.3s;
     z-index: 1;
+    border-radius: 5px;
 }
 .btn::after{
     position: absolute;
@@ -127,9 +128,96 @@ header{
     height: 100%;
     width: 100%;
     top: 0;
-    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    opacity: 0;
+    transition: 0.5s;
+}
+.featured_img:hover .image_caption{
+    opacity: 1;
 }
 .image_caption p a{
-    color: #272727;
-    font-size: 14px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 15px;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+.image_caption p a::before{
+    background: #fff;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    transition: 0.5s;
+    border: 1px solid transparent;
+}
+.image_caption p a:hover::before{
+    border: 1px solid white;
+}
+.image_caption p a:hover{
+    color: white;
+}
+.image_caption_1{
+    background: #A721627e;
+}
+.image_caption_1  p a:hover::before{
+    background: #A72162;
+}
+.image_caption_2{
+    background: #0598a07e;
+}
+.image_caption_2  p a:hover::before{
+    background: #0598a0;
+}
+.image_caption_3{
+    background: #477D117e;
+}
+.image_caption_3  p a:hover::before{
+    background: #477D11;
+}
+
+/* Service part Css start */
+.service{
+    background: #27272708;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+.service_box{
+    text-align: center;
+}
+
+/* Sale Part CSS Start */
+.sale_section{
+    background: #e5547317;
+    padding: 50px;
+}
+.sale_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sale_post{
+    width: 50%;
+    text-align: center;
+}
+.sale_post h2 span{
+    color: #E55473;
+}
+.sale_post p{
+    padding: 30px;
+}
+.sale_img{
+    text-align: center;
+    width: 50%;
 }

@@ -17,26 +17,26 @@
     position: relative;
     border: 2px solid transparent;
     transition: 0.3s;
+    z-index: 1;
 }
 .btn::after{
     position: absolute;
     content: "";
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%), scale(0);
-    width: 200%;
-    height: 200%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 400px;
+    height: 400px;
     background: #fff;
     border-radius: 50%;
-    z-index: -1;
     transition: 0.3s;
+    z-index: -1;
 }
 .btn:hover::after{
-    transform: scale(1);
+    transform: translate(-50%, -50%) scale(1);
 }
 .btn:hover{
     color: #E55473;
-    background-color: transparent;
     border: 2px solid #E55473;
     cursor: pointer;
 }

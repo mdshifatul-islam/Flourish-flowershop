@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,35 @@
     <title>Flourish</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
+        <nav class="container nav_container">
+            <div class="logo">
+                <h1><span>Flo</span>urish</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a class="btn menu_item" href="#">Home</a></li>
+                    <li><a class="btn menu_item" href="#feature">Featured</a></li>
+                    <li><a class="btn menu_item" href="#service">Services</a></li>
+                    <li><a class="btn menu_item" href="#sale_section">Sales</a></li>
+                    <li><a class="btn menu_item" href="#instagram">Instagra</a></li>
+                </ul>
+            </div>
+        </nav>
         <div class="container banner">
             <article class="banner_article">
                 <h2>Let's make beautiful flowers a part of your life.</h2>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus dolorum tenetur quam iste, error accusantium rem corrupti suscipit debitis at facilis maiores molestias facere eos similique. Aperiam distinctio numquam quidem!
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus dolorum tenetur quam iste,
+                    error accusantium rem corrupti suscipit debitis at facilis maiores molestias facere eos similique.
+                    Aperiam distinctio numquam quidem!
                 </p>
                 <button class="btn banner_btn">Shop Now</button>
             </article>
@@ -26,11 +46,12 @@
         </div>
     </header>
     <main>
-        <section class="container feature">
-            <div class="feature_title">
+        <section id="feature" class="container feature">
+            <div class="sec_title feature_title">
                 <h3>Our Featured Flowers</h3>
                 <p>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                    It is a long established fact that a reader will be distracted by the readable content of a page
+                    when looking at its layout.
                 </p>
             </div>
             <div class="featured_img_container">
@@ -60,7 +81,7 @@
                 </div>
             </div>
         </section>
-        <section class="container service">
+        <section id="service" class="container service">
             <div class="service_box">
                 <img src="images/Group 57.png" alt="">
                 <p>Same Day Delivery. Click & Collect.</p>
@@ -74,12 +95,13 @@
                 <p>Same Day Delivery. Click & Collect.</p>
             </div>
         </section>
-        <section class="sale_section">
+        <section id="sale_section" class="sale_section">
             <div class="container sale_container">
                 <div class="sale_post">
                     <h2>Hot Deal ! Sale Up To 25% <span>Off</span></h2>
                     <p>
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                        It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout.
                     </p>
                     <button class="btn sale_btn">Sign In</button>
                 </div>
@@ -88,9 +110,50 @@
                 </div>
             </div>
         </section>
+        <section id="instagram" class="instagram">
+            <div class="container insta_container">
+                <div class="sec_title insta_title">
+                    <h3>Instagram</h3>
+                    <p>
+                        It is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout.
+                    </p>
+                </div>
+                <div class="insta_pic_box">
+                    <div class="insta_img"><img src="images/Flower 01.png" alt=""></div>
+                    <div class="insta_img"><img src="images/Rectangle 4.png" alt=""></div>
+                    <div class="insta_img"><img src="images/Rectangle 5.png" alt=""></div>
+                    <div class="insta_img"><img src="images/Rectangle 6.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+        <section class="leatest_section">
+            <div class="container leatest_container">
+                <div class="sec_title leatest_title">
+                    <h3>Get The Latest Deals</h3>
+                    <p>
+                        $30 coupon for first shopping
+                    </p>
+                </div>
+                <div class="mail_form">
+                    <input class="mail_input" type="email" placeholder="Enter you email here">
+                    <button class="btn email_btn">Subscribe</button>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-
+    <footer class="footer_section">
+        <div class="container footer_container">
+            <div class="sec_title footer_title">
+                <h3><span>Flourish</span> - Flower Shop</h3>
+                <p>
+                    It is a long established fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout.
+                </p>
+                <small>@2020-2023, FlowerShop.com. All rights reserved. </small>
+            </div>
+        </div>
     </footer>
 </body>
+
 </html>

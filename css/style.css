@@ -10,8 +10,8 @@
 .btn{
     background: #E55473;
     border-style: none;
-    padding: 20px 45px;
-    font-size: 20px;
+    padding: 18px 40px;
+    font-size: 16px;
     font-weight: bold;
     color: #fff;
     overflow: hidden;
@@ -45,16 +45,64 @@
 a{
     text-decoration: none;
 }
+.sec_title{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.sec_title h3{
+    font-size: 30px;
+    font-weight: 900;
+    color: #272727;
+    margin: 20px 0;
+}
+.sec_title p{
+    font-size: 14px;
+    color: #272727;
+}
 /* Header part css */
 
 header{
     background: #e5547310;
-    padding: 100px 0 0 0;
 }
+
+/* Nav part css start */
+nav{
+    padding: 30px 0;
+}
+.logo h1 span{
+    color: #E55473;
+}
+.nav_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    margin-left: 15px;
+}
+.menu_item{
+    padding: 10px 15px;
+    background: transparent;
+    color: #272727;
+    overflow: hidden;
+}
+.menu_item:hover::after{
+    transform: translate(-50%, -50%) scale(0);
+}
+
+/* banner part css start */
 .banner{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 30px 0 0 0;
 }
 .banner_article{
     width: 40%;
@@ -81,21 +129,6 @@ header{
 /* Featured CSS start */
 .feature{
     padding: 60px 0;
-}
-.feature_title{
-    width: 40%;
-    margin: 0 auto;
-    text-align: center;
-}
-.feature_title h3{
-    font-size: 30px;
-    font-weight: 900;
-    color: #272727;
-    margin: 20px 0;
-}
-.feature_title p{
-    font-size: 14px;
-    color: #272727;
 }
 .featured_img_container{
     display: flex;
@@ -200,7 +233,7 @@ header{
 /* Sale Part CSS Start */
 .sale_section{
     background: #e5547317;
-    padding: 50px;
+    padding: 50px 0;
 }
 .sale_container{
     display: flex;
@@ -213,11 +246,67 @@ header{
 }
 .sale_post h2 span{
     color: #E55473;
+    font-weight: 800;
 }
 .sale_post p{
     padding: 30px;
+    line-height: 25px;
 }
 .sale_img{
     text-align: center;
     width: 50%;
+}
+
+/* Instagram part CSS start */
+.instagram{
+    padding: 60px 0;
+}
+.insta_pic_box{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 0 0;
+}
+.insta_pic_box img{
+    width: 250px;
+}
+
+/* leatest Part CSS Start */
+
+.leatest_container{
+    background: url("../images/Rectangle\ 9.png") no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+.mail_input{
+    border-style: none;
+    font-size: 18px;
+    width: 30%;
+    padding: 18px 25px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.mail_form{
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+
+
+/* footer part css start */
+
+.footer_section{
+    background: #1a1a1a;
+    padding: 100px 0;
+    margin-top: 70px;
+}
+.footer_title h3, .footer_title p{
+    color: white;
+}
+.footer_title h3 span{
+    color: #E55473;
+}
+.footer_title p{
+    padding-bottom: 30px;
+}
+.footer_title small{
+    color: rgba(255, 255, 255, 0.233);
 }

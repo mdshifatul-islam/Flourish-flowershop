@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 .container{
     max-width: 1140px;
@@ -53,15 +54,16 @@ header{
 }
 .banner_article{
     width: 40%;
-    font-family: 'Lato', sans-serif;
 }
 .banner_article h2{
     font-size: 40px;
     font-weight: 900;
+    color: #272727;
 }
 .banner_article p{
     font-size: 18px;
     margin: 20px 0;
+    color: #272727;
 }
 .banner_img{
     width: 50%;
@@ -70,4 +72,48 @@ header{
 .banner_img img{
     width: 70%;
     margin-bottom: -4px;
+}
+
+/* Featured CSS start */
+.feature{
+    padding: 60px 0;
+}
+.feature_title{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.feature_title h3{
+    font-size: 30px;
+    font-weight: 900;
+    color: #272727;
+    margin: 20px 0;
+}
+.feature_title p{
+    font-size: 14px;
+    color: #272727;
+}
+.featured_img_container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.featured_img{
+    display: flex;
+    align-items: flex-end;
+    padding: 30px 60px 0 60px;
+    border-radius: 50% 50% 0 0;
+}
+.featured_img img{
+    width: 220px;
+}
+.featured_img_1{
+    background: #A721621e;
+}
+.featured_img_3{
+    background: #477D111e;
+}
+.featured_img_2{
+    align-items: center;
+    background: #0598a01e;
 }

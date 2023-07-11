@@ -291,12 +291,67 @@ nav{
 }
 
 
+/* payment part css start */
+.payment_section{
+    padding: 100px 0;
+}
+.payment_box{
+    padding: 0 35px;
+    width: 33%;
+}
+.main_payment{
+    display: flex;
+    justify-content: space-between;
+}
+.payment_btn{
+    margin-top: 50px;
+}
+.payment_infor{
+    padding: 50px 20px;
+    background-color: #f7f0e6;
+    border-radius: 0 0 15px 15px
+}
+.payment_infor_mid{
+    padding: 58px 20px;
+}
+.payment_title{
+    padding: 20px 0;
+    background-color: #E55473;
+    border-bottom: 8px solid #fff;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+}
+.payment_title h3{
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: white;
+}
+.payment_infor p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.payment_infor ol li{
+    list-style: disc;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 40px;
+    line-height: 30px;
+}
+.paymen_infor_span{
+    color: #e11a27;
+    font-weight: 600;
+}
+.payment_btn{
+    text-align: center
+}
+
+
 /* footer part css start */
 
 .footer_section{
     background: #1a1a1a;
     padding: 100px 0;
-    margin-top: 70px;
 }
 .footer_title h3, .footer_title p{
     color: white;
